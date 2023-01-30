@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+.cool {
+  border: none;
+}
+
+.inheri {
+  text-decoration: none;
+  color: inherit
+}
+
+.inheri:hover {
+  color: black
+}
+
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.cards {
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.cards:hover {
+  transform: scale(1.1);
+}
+
+.cardss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.formtrans {
+  background-color: transparent;
+}
+
+
+/* important */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.color {
+  background-color: #EEBB3A
+}
+
+.colo {
+  color: green
+}
+
+.coloo {
+  color: orangered
+}
+
+
+.bgim {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: fill;
+
+}
+
+.bgim {
+  background-image: url(/public/assets/b2.png);
+
+}
+
+@media screen and (max-width:1000px) {
+  .bgim {
+    background-image: url(/public/assets/b2.png);
+
+  }
+}
+
+@media screen and (max-width:767px) {
+  .bgim {
+    background-image: url(/public/assets/bu2.png);
+
+
+
+  }
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+
+.newfont {
+  font-family: 'Fredoka One', cursive;
+}
+
+.errcol {
+  color: black
+}
+
+.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 31px;
+
+}
