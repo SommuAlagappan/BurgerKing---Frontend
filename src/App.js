@@ -15,8 +15,6 @@ import Swal from 'sweetalert2';
 import Cart from "./Cart";
 import Ordersuccess from "./Ordersuccess";
 import { env } from "./Config";
-import PasswordReset from "./PasswordReset";
-import ResetPasswordPage from "./ResetPasswordPage";
 
 function App() {
 
@@ -101,8 +99,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Signup />} />
           <Route path="login" element={<Login />} />
-          <Route path='/resetpassword' element={<PasswordReset />} />
-          <Route path='/reset-password-page/:id/:token' element={< ResetPasswordPage />} />
 
           <Route element={<ProtectedRoutes />}>
             <Route
