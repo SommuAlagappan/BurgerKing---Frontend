@@ -19,7 +19,7 @@ function CartSummary({ total, setCount }) {
 
                 handler: function (response) {
 
-                    alert(`<bold>Transaction ID :</bold> ${response.razorpay_payment_id}`)
+                    alert(` Transaction ID: ${response.razorpay_payment_id}`)
                     setCount(0)
                     navigate("/ordersuccess");
                 },

@@ -10,9 +10,9 @@ import Footer from './Footer';
 function Dashboard({ data0, data1, data2, loadData, count, loading }) {
 
 
-    useEffect(() => {
-        loadData()
-    }, [])
+    // useEffect(() => {
+    //     loadData()
+    // }, [])
 
 
 

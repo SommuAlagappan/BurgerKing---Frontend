@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ViewProduct0 from "./ViewProduct0";
 import ViewProduct1 from "./ViewProduct1";
 import ViewProduct2 from "./ViewProduct2";
@@ -17,6 +17,10 @@ import Ordersuccess from "./Ordersuccess";
 import { env } from "./Config";
 
 function App() {
+
+  useEffect(() => {
+    loadData()
+  }, [])
 
 
   //Alert function;
