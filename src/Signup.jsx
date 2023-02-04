@@ -194,9 +194,9 @@ function Signup() {
 
                                             {/* <!-- Submit button --> */}
                                             <div className="d-grid gap-2">
-                                                <button type="submit" className="btn btn-light">
-                                                    <i class="fa-solid fa-arrow-up-right-from-square me-2"></i>
-                                                    <span className="fw-normal lead">Submit</span>
+                                                <button type="submit" className="btn btn-success">
+                                                    <i class="fa-solid fa-arrow-up-right-from-square me-2 text-white "></i>
+                                                    <span className="fw-normal lead text-white ">Submit</span>
 
                                                 </button>
                                             </div>

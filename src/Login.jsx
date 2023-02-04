@@ -151,9 +151,9 @@ function Login() {
 
                                         {/* <!-- Submit button --> */}
                                         <div className="d-grid gap-2 pt-2">
-                                            <button type="submit" className="btn btn-light">
-                                                <i className="fa-solid fa-lock me-1"></i>
-                                                <span className="lead fw-normal">Login</span>
+                                            <button type="submit" className="btn btn-success">
+                                                <i className="fa-solid text-white fa-lock me-1"></i>
+                                                <span className="lead fw-normal text-white  ">Login</span>
                                             </button>
                                         </div>
                                     </form>

@@ -18,10 +18,6 @@ import { env } from "./Config";
 
 function App() {
 
-  useEffect(() => {
-    loadData()
-  }, [])
-
 
   //Alert function;
   const Toast = Swal.mixin({
