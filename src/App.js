@@ -81,14 +81,14 @@ function App() {
 
   let addToCart = (res) => {
     setCount(count + 1);
-    Toast.fire({ icon: 'success', title: 'Item added to the cart' })
+    Toast.fire({ icon: 'success', title: 'Item added to the bag' })
     setCart([...cart, res]);
     setTotal(total + res.price);
   };
 
   let removeCart = (res1) => {
     setCount(count - 1);
-    Toast.fire({ icon: 'error', title: 'Item removed from the cart' })
+    Toast.fire({ icon: 'error', title: 'Item removed from the bag' })
     let index = cart.findIndex((obj) => {
       return obj._id === res1._id;
     });
