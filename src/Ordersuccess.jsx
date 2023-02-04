@@ -7,7 +7,7 @@ function Ordersuccess() {
 
     const redirect = () => {
         navigate("/dashboard")
-        window.location.reload(false)
+        
     }
     return (<>
 
