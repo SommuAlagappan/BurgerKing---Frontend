@@ -2,10 +2,10 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className="mt-5 pb-4 bg-light">
+        <div className="mt-3 pb-4 bg-light">
             <div className="row">
-                <div className="col-lg-4 mt-md-5">
-                    <div className="text-black h6 text-center">
+                <div className="col-lg-4 mt-3">
+                    <div className="text-black h6  text-center">
                         Copyright <i className="fa-regular fa-copyright"></i> 2023 BurgerKing. All rights reserved.
                     </div>
                 </div>
@@ -31,7 +31,7 @@ function Footer() {
                         </a>
 
 
-                        <a href="https://twitter.com/" className=" text-primary" target="_blank">
+                        <a href="https://twitter.com/" className=" text-info" target="_blank">
                             <i className="fa-brands fa-twitter fs-1 ms-3"></i>
                         </a>
 
