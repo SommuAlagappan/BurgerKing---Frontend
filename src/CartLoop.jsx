@@ -1,32 +1,11 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 function CartLoop({
     res1,
-    index,
     handleRemoveCart,
     handleAddToCart,
 
-    total,
-    // count,
-    // handleIncrement,
-    // handleDecrement,
-    // setCount,
-    setTotal
 }) {
-    const [count, setCount] = useState(1);
-
-
-    let increment = (res1) => {
-        setCount(count + 1);
-        setTotal(total + res1.price);
-    };
-
-    let decrement = (res1) => {
-        setCount(count - 1);
-        setTotal(total - res1.price);
-    };
-
 
     return (
         <>

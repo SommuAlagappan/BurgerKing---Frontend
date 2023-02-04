@@ -3,13 +3,11 @@ import { Outlet } from "react-router-dom";
 import Login from "./Login";
 
 
+
 function ProtectedRoutes() {
   return (
-    window.localStorage.length>0?<Outlet/> :<Login/>
+    window.localStorage.app-token.length>70?<Outlet/> : <Login/>
     
   )
 }
-
 export default ProtectedRoutes
-
-console.log(window.localStorage.length>0)
