@@ -6,7 +6,7 @@ import { env } from "./Config";
 function PasswordReset() {
   let formik = useFormik({
     initialValues: {
-      email: "",
+      emailAddress: "",
     },
     onSubmit: async (values) => {
       let user = await axios.post(`${env.api}/resetpassword`, values);

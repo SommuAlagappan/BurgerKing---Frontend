@@ -1,8 +1,6 @@
 import React from "react";
 import { env } from "./Config";
 import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 function CartSummary({ total, setCount }) {
     let navigate = useNavigate();
@@ -21,7 +19,7 @@ function CartSummary({ total, setCount }) {
 
                 handler: function (response) {
 
-                    alert(`Transaction ID : ${response.razorpay_payment_id}`)
+                    alert(`<bold>Transaction ID :</bold> ${response.razorpay_payment_id}`)
                     setCount(0)
                     navigate("/ordersuccess");
                 },
