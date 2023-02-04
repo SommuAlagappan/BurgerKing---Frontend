@@ -5,12 +5,12 @@ import Login from "./Login";
 
 function ProtectedRoutes() {
   return (
-    window.localStorage.length>70?<Outlet/> :<Login/>
+    window.localStorage.length>0?<Outlet/> :<Login/>
     
   )
 }
 
 export default ProtectedRoutes
 
-console.log(window.localStorage.length>70)
+console.log(window.localStorage.length>0)
 
