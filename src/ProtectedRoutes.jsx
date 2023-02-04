@@ -6,7 +6,7 @@ import Login from "./Login";
 
 function ProtectedRoutes() {
   return (
-    window.localStorage.app-token.length>70?<Outlet/> : <Login/>
+    window.localStorage.apptoken.length>70?<Outlet/> : <Login/>
     
   )
 }
